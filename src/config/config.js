@@ -1,0 +1,1 @@
+export const config = (() => JSON.parse(localStorage.getItem("config")))();
